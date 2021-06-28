@@ -70,7 +70,7 @@ public List <Employee> findAlll(){
 		
 		// if employee null
 		if (theEmployee == null) {
-			throw new RuntimeException("Employee not foud "+ employeeId);
+			throw new RuntimeException("Employee his id not foud "+ employeeId);
 			
 		}
 		employeeService.deleteById(employeeId);
