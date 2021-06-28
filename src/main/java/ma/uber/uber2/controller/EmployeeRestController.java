@@ -74,7 +74,7 @@ public List <Employee> findAlll(){
 			
 		}
 		employeeService.deleteById(employeeId);
-		return "the employee was deleted "+ employeeId;
+		return "the employe was deleted "+ employeeId;
 		
 	}
 	
