@@ -41,7 +41,7 @@ public List <Employee> findAlll(){
 		Employee theEmployee = employeeService.fndById(employeeId);
 		
 		if (theEmployee == null) {
-			throw new RuntimeException("Employee xxxxxxxxxxxxx his id not found -" + employeeId);
+			throw new RuntimeException("Employee yyyyyyyyyyyy his id not found -" + employeeId);
 		}
 		return theEmployee;
 		
