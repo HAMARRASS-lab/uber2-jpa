@@ -41,7 +41,7 @@ public List <Employee> findAlll(){
 		Employee theEmployee = employeeService.fndById(employeeId);
 		
 		if (theEmployee == null) {
-			throw new RuntimeException("Employee his id not found -" + employeeId);
+			throw new RuntimeException("Employee xxxxxxxxxxxxx his id not found -" + employeeId);
 		}
 		return theEmployee;
 		
@@ -70,15 +70,11 @@ public List <Employee> findAlll(){
 		
 		// if employee null
 		if (theEmployee == null) {
-			throw new RuntimeException("Employee his idEmpl not found "+ employeeId);
+			throw new RuntimeException("Employee xx  his idEmpl not found "+ employeeId);
 			 
 		}
 		employeeService.deleteById(employeeId);
 		return "the employe was deleted "+ employeeId;
 		
 	}
-	
-	
-	
-	
 }
