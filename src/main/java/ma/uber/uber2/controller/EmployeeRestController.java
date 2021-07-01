@@ -70,7 +70,7 @@ public List <Employee> findAlll(){
 		
 		// if employee null
 		if (theEmployee == null) {
-			throw new RuntimeException("Employee his ggggggg   hhhhhhhhhhhhhhhhhhhh idEmpl not found "+ employeeId);
+			throw new RuntimeException("Hamza his idEmpl not found "+ employeeId);
 			 
 		}
 		employeeService.deleteById(employeeId);
